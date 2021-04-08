@@ -1,0 +1,39 @@
+{
+  "name": "nodejs-fulltack-boilerplate",
+  "version": "0.0.1",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "mix-dev": "npm run mix-development",
+    "mix-development": "mix",
+    "mix-watch": "mix watch",
+    "mix-watch-poll": "mix watch -- --watch-options-poll=1000",
+    "mix-hot": "mix watch --hot",
+    "mix-prod": "npm run mix-production",
+    "mix-production": "mix --production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/donaldp/nodejs-fulltack-boilerplate.git"
+  },
+  "author": "Donald Pakkies <donaldpakkies@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/donaldp/nodejs-fulltack-boilerplate/issues"
+  },
+  "homepage": "https://github.com/donaldp/nodejs-fulltack-boilerplate#readme",
+  "dependencies": {
+    "express": "^5.0.0-alpha.8",
+    "laravel-mix": "^6.0.16",
+    "postcss": "^8.2.9",
+    "tailwindcss": "^2.1.1",
+    "vue": "^2.6.12",
+    "vue-router": "^3.5.1"
+  },
+  "devDependencies": {
+    "vue-loader": "^15.9.6",
+    "vue-template-compiler": "^2.6.12"
+  }
+}
