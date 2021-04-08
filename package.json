@@ -1,5 +1,5 @@
 {
-  "name": "nodejs-fulltack-boilerplate",
+  "name": "nodejs-fullstack-boilerplate",
   "version": "0.0.1",
   "description": "",
   "main": "server.js",
@@ -16,14 +16,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/donaldp/nodejs-fulltack-boilerplate.git"
+    "url": "git+https://github.com/donaldp/nodejs-fullstack-boilerplate.git"
   },
   "author": "Donald Pakkies <donaldpakkies@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/donaldp/nodejs-fulltack-boilerplate/issues"
+    "url": "https://github.com/donaldp/nodejs-fullstack-boilerplate/issues"
   },
-  "homepage": "https://github.com/donaldp/nodejs-fulltack-boilerplate#readme",
+  "homepage": "https://github.com/donaldp/nodejs-fullstack-boilerplate#readme",
   "dependencies": {
     "express": "^5.0.0-alpha.8",
     "laravel-mix": "^6.0.16",
